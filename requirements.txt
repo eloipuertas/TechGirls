@@ -10,3 +10,6 @@ matplotlib
 Pillow
 seaborn
 twisted
+dash_core_components
+dash_html_components
+plotly
