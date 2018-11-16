@@ -1,0 +1,2577 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_8c2ff303c40f4f968373f29002dd205c {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_8c2ff303c40f4f968373f29002dd205c" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_8c2ff303c40f4f968373f29002dd205c = L.map(
+        'map_8c2ff303c40f4f968373f29002dd205c', {
+        center: [41.54329, 2.10942],
+        zoom: 13,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    var tile_layer_0fe81e86804e4700a28b0aa00f994588 = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null, 
+        "detectRetina": false, 
+        "maxNativeZoom": 18, 
+        "maxZoom": 18, 
+        "minZoom": 0, 
+        "noWrap": false, 
+        "subdomains": "abc"
+}).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+    
+        var marker_18111fd4eae048d9a4436b4eb841e748 = L.marker(
+            [41.5442, 2.11074],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_c2408516393848e98cfba610bce1a3d7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_18111fd4eae048d9a4436b4eb841e748.setIcon(icon_c2408516393848e98cfba610bce1a3d7);
+            
+    
+            var popup_24da8d5ee1234d5093ad847f7c47a95c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7569b185975044d19bd46bb63ff10023 = $('<div id="html_7569b185975044d19bd46bb63ff10023" style="width: 100.0%; height: 100.0%;">ANTOLOGIA DE LA ZARZUELA. ESPECTACLE 02/12/2018 17:00</div>')[0];
+                popup_24da8d5ee1234d5093ad847f7c47a95c.setContent(html_7569b185975044d19bd46bb63ff10023);
+            
+
+            marker_18111fd4eae048d9a4436b4eb841e748.bindPopup(popup_24da8d5ee1234d5093ad847f7c47a95c)
+            ;
+
+            
+        
+    
+        var marker_21c409724a704b49b833abee657594ae = L.marker(
+            [41.5455, 2.10815],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_744f626be8e140f7b20857c458c44f26 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_21c409724a704b49b833abee657594ae.setIcon(icon_744f626be8e140f7b20857c458c44f26);
+            
+    
+            var popup_4becd86f4dc241cab180542d93cecd6a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_63b0955f558844b89b3c98f46437cdbf = $('<div id="html_63b0955f558844b89b3c98f46437cdbf" style="width: 100.0%; height: 100.0%;">ORIENT I OCCIDENT. BANDA DE MÚSICA DE SABADELL. CONCERT 02/12/2018 12:00</div>')[0];
+                popup_4becd86f4dc241cab180542d93cecd6a.setContent(html_63b0955f558844b89b3c98f46437cdbf);
+            
+
+            marker_21c409724a704b49b833abee657594ae.bindPopup(popup_4becd86f4dc241cab180542d93cecd6a)
+            ;
+
+            
+        
+    
+        var marker_e503cbe96c774c90852e255c0eea419f = L.marker(
+            [41.5455, 2.10815],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_9a160e0932f04bb48a1d2686146ff79b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e503cbe96c774c90852e255c0eea419f.setIcon(icon_9a160e0932f04bb48a1d2686146ff79b);
+            
+    
+            var popup_7a6031b4d647495198c9a93741cb45c3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cb62897059de492d91939dafbc9f5254 = $('<div id="html_cb62897059de492d91939dafbc9f5254" style="width: 100.0%; height: 100.0%;">COR DE CAMBRA &quot;SOTA PALAU DE BLANES&quot;. CONCERT 14/12/2018 21:00</div>')[0];
+                popup_7a6031b4d647495198c9a93741cb45c3.setContent(html_cb62897059de492d91939dafbc9f5254);
+            
+
+            marker_e503cbe96c774c90852e255c0eea419f.bindPopup(popup_7a6031b4d647495198c9a93741cb45c3)
+            ;
+
+            
+        
+    
+        var marker_b93eab590b8a47eca462098e4ba71742 = L.marker(
+            [41.5455, 2.10815],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_3efe69044dea48d5abd7b822cc330fac = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b93eab590b8a47eca462098e4ba71742.setIcon(icon_3efe69044dea48d5abd7b822cc330fac);
+            
+    
+            var popup_87edaea8243948c38446d3e375f22f16 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0e700c82c63548deaf58b3c0cd39e995 = $('<div id="html_0e700c82c63548deaf58b3c0cd39e995" style="width: 100.0%; height: 100.0%;">TRIBUT A RICARD VILADESAU I JOAN LLUÍS MORALEDA. CONCERT DE SANT ESTEVE 23/12/2018 18:00</div>')[0];
+                popup_87edaea8243948c38446d3e375f22f16.setContent(html_0e700c82c63548deaf58b3c0cd39e995);
+            
+
+            marker_b93eab590b8a47eca462098e4ba71742.bindPopup(popup_87edaea8243948c38446d3e375f22f16)
+            ;
+
+            
+        
+    
+        var marker_f3e36ff848564039a4b3ebdca4a866cc = L.marker(
+            [41.546, 2.11094],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_53ada8eb4e154fbe9e12b873dd0fa257 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f3e36ff848564039a4b3ebdca4a866cc.setIcon(icon_53ada8eb4e154fbe9e12b873dd0fa257);
+            
+    
+            var popup_8c1672800bc742faac04afe88b112ec9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b9b42a22ce924556a54ad08942eae1db = $('<div id="html_b9b42a22ce924556a54ad08942eae1db" style="width: 100.0%; height: 100.0%;">FESTIVAL DE VALSOS I DANSES. CONCERT 29/12/2018 20:30</div>')[0];
+                popup_8c1672800bc742faac04afe88b112ec9.setContent(html_b9b42a22ce924556a54ad08942eae1db);
+            
+
+            marker_f3e36ff848564039a4b3ebdca4a866cc.bindPopup(popup_8c1672800bc742faac04afe88b112ec9)
+            ;
+
+            
+        
+    
+        var marker_ce92368f928d4231be7f9eaf222d5aa3 = L.marker(
+            [41.546, 2.11094],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_603623364279487780319a1fb3704231 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ce92368f928d4231be7f9eaf222d5aa3.setIcon(icon_603623364279487780319a1fb3704231);
+            
+    
+            var popup_e92738f0b10a408bad1484210bbd745c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e768907e24ba4a91ab143b76ff60f13c = $('<div id="html_e768907e24ba4a91ab143b76ff60f13c" style="width: 100.0%; height: 100.0%;">FESTIVAL DE VALSOS I DANSES. CONCERT 30/12/2018 11:30</div>')[0];
+                popup_e92738f0b10a408bad1484210bbd745c.setContent(html_e768907e24ba4a91ab143b76ff60f13c);
+            
+
+            marker_ce92368f928d4231be7f9eaf222d5aa3.bindPopup(popup_e92738f0b10a408bad1484210bbd745c)
+            ;
+
+            
+        
+    
+        var marker_41830196fea84b7d9c6f0305cfbaff12 = L.marker(
+            [41.5688, 2.08447],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_959d5477c9914e7982ba3e128b37175e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_41830196fea84b7d9c6f0305cfbaff12.setIcon(icon_959d5477c9914e7982ba3e128b37175e);
+            
+    
+            var popup_24b4e1563a7c4b18948b5729c864d192 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ed4dc31a018c44aebbd44a0ba7d0cef9 = $('<div id="html_ed4dc31a018c44aebbd44a0ba7d0cef9" style="width: 100.0%; height: 100.0%;">EL PAÍS DEL SILENCI (FESTA 30 ANYS!). GRUP BUFANÚVOLS. MÚSICA 28/04/2019 00:00</div>')[0];
+                popup_24b4e1563a7c4b18948b5729c864d192.setContent(html_ed4dc31a018c44aebbd44a0ba7d0cef9);
+            
+
+            marker_41830196fea84b7d9c6f0305cfbaff12.bindPopup(popup_24b4e1563a7c4b18948b5729c864d192)
+            ;
+
+            
+        
+    
+        var marker_627be0fe39c240a2b0596eec02fe908c = L.marker(
+            [41.5442, 2.11074],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_3e08d0690db44dbb9a80bfb6db392604 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_627be0fe39c240a2b0596eec02fe908c.setIcon(icon_3e08d0690db44dbb9a80bfb6db392604);
+            
+    
+            var popup_5266694aba5247cf8fd2f7b8f64730f6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1e189bf755d94030b6e0e1536b69bb31 = $('<div id="html_1e189bf755d94030b6e0e1536b69bb31" style="width: 100.0%; height: 100.0%;">CONCERT DE NADAL 15/12/2018 17:00</div>')[0];
+                popup_5266694aba5247cf8fd2f7b8f64730f6.setContent(html_1e189bf755d94030b6e0e1536b69bb31);
+            
+
+            marker_627be0fe39c240a2b0596eec02fe908c.bindPopup(popup_5266694aba5247cf8fd2f7b8f64730f6)
+            ;
+
+            
+        
+    
+        var marker_95aa206bbce34e529c83fbf84497fcf0 = L.marker(
+            [41.5374, 2.1024],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_32511101d76b4912a26641c8ab261e4d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_95aa206bbce34e529c83fbf84497fcf0.setIcon(icon_32511101d76b4912a26641c8ab261e4d);
+            
+    
+            var popup_efbd1a7f451a4f27aa50aa1e63db63b1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8e8f12bdd44b452496219aac49e932ab = $('<div id="html_8e8f12bdd44b452496219aac49e932ab" style="width: 100.0%; height: 100.0%;">CONCERT DE NADAL 21/12/2018 17:30</div>')[0];
+                popup_efbd1a7f451a4f27aa50aa1e63db63b1.setContent(html_8e8f12bdd44b452496219aac49e932ab);
+            
+
+            marker_95aa206bbce34e529c83fbf84497fcf0.bindPopup(popup_efbd1a7f451a4f27aa50aa1e63db63b1)
+            ;
+
+            
+        
+    
+        var marker_7734ed87f5c24863b578a52a3e454431 = L.marker(
+            [41.553, 2.10562],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_473cdc30fb2e459da90b598fe653e87c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7734ed87f5c24863b578a52a3e454431.setIcon(icon_473cdc30fb2e459da90b598fe653e87c);
+            
+    
+            var popup_8c61c146507a40dd8f172bbf8b6677aa = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e0578370587c40d08bc4d3f0e865ced8 = $('<div id="html_e0578370587c40d08bc4d3f0e865ced8" style="width: 100.0%; height: 100.0%;">MANU GUIX. CONCERT 15/12/2018 22:00</div>')[0];
+                popup_8c61c146507a40dd8f172bbf8b6677aa.setContent(html_e0578370587c40d08bc4d3f0e865ced8);
+            
+
+            marker_7734ed87f5c24863b578a52a3e454431.bindPopup(popup_8c61c146507a40dd8f172bbf8b6677aa)
+            ;
+
+            
+        
+    
+        var marker_d5d325f8c27442a3911362dcc9476427 = L.marker(
+            [41.553, 2.10562],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_56b9fcc5da52416ab68c2c39de17de89 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d5d325f8c27442a3911362dcc9476427.setIcon(icon_56b9fcc5da52416ab68c2c39de17de89);
+            
+    
+            var popup_86e7d856e71d497ba27aebdccc3f01c4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cce1fbd8a34d433cabe1306bb2622db2 = $('<div id="html_cce1fbd8a34d433cabe1306bb2622db2" style="width: 100.0%; height: 100.0%;">PEP PLAZA PRESENTA &quot;I ARA QUÈ MÉS?&quot;. CONCERT 04/01/2019 00:00</div>')[0];
+                popup_86e7d856e71d497ba27aebdccc3f01c4.setContent(html_cce1fbd8a34d433cabe1306bb2622db2);
+            
+
+            marker_d5d325f8c27442a3911362dcc9476427.bindPopup(popup_86e7d856e71d497ba27aebdccc3f01c4)
+            ;
+
+            
+        
+    
+        var marker_4c022e9b192645adbcab75083b910c82 = L.marker(
+            [41.553, 2.10562],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_474982ca16d74c149ee32cb08e6707de = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4c022e9b192645adbcab75083b910c82.setIcon(icon_474982ca16d74c149ee32cb08e6707de);
+            
+    
+            var popup_d0e42a9d368c40af8597bbe700a6491f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cadf10d9a66c4e43859151f549950447 = $('<div id="html_cadf10d9a66c4e43859151f549950447" style="width: 100.0%; height: 100.0%;">LLUÍS COLOMA &amp; A CONTRABLUES. CONCERT 14/12/2018 22:00</div>')[0];
+                popup_d0e42a9d368c40af8597bbe700a6491f.setContent(html_cadf10d9a66c4e43859151f549950447);
+            
+
+            marker_4c022e9b192645adbcab75083b910c82.bindPopup(popup_d0e42a9d368c40af8597bbe700a6491f)
+            ;
+
+            
+        
+    
+        var marker_0c3e9e0f1b4947c69687d1ac563f69e8 = L.marker(
+            [41.5411, 2.11142],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_b7c38b5a54c943dea565521438cdf531 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0c3e9e0f1b4947c69687d1ac563f69e8.setIcon(icon_b7c38b5a54c943dea565521438cdf531);
+            
+    
+            var popup_3dcd6ace57d34c0ab45e4435139ab535 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_513ed31725e249d6b9218a1bf9e109c3 = $('<div id="html_513ed31725e249d6b9218a1bf9e109c3" style="width: 100.0%; height: 100.0%;">CONCERT DE NADAL 22/12/2018 21:00</div>')[0];
+                popup_3dcd6ace57d34c0ab45e4435139ab535.setContent(html_513ed31725e249d6b9218a1bf9e109c3);
+            
+
+            marker_0c3e9e0f1b4947c69687d1ac563f69e8.bindPopup(popup_3dcd6ace57d34c0ab45e4435139ab535)
+            ;
+
+            
+        
+    
+        var marker_f31fb5e8de894717b0b1b716336728f0 = L.marker(
+            [41.5483, 2.11127],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_4416f0841ef74641859827ee0b9bf534 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f31fb5e8de894717b0b1b716336728f0.setIcon(icon_4416f0841ef74641859827ee0b9bf534);
+            
+    
+            var popup_d68b9f777eb44f0ab2852fc115bf1e66 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8cb718e6673f4e089b3878202a52be0a = $('<div id="html_8cb718e6673f4e089b3878202a52be0a" style="width: 100.0%; height: 100.0%;">CONCERT DE NADAL 21/12/2018 21:30</div>')[0];
+                popup_d68b9f777eb44f0ab2852fc115bf1e66.setContent(html_8cb718e6673f4e089b3878202a52be0a);
+            
+
+            marker_f31fb5e8de894717b0b1b716336728f0.bindPopup(popup_d68b9f777eb44f0ab2852fc115bf1e66)
+            ;
+
+            
+        
+    
+        var marker_f84bbdbb409a407f83a4fbb4b02d9ac3 = L.marker(
+            [41.5488, 2.1024],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_8eaba13253334fb5877a8c901fd6243d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f84bbdbb409a407f83a4fbb4b02d9ac3.setIcon(icon_8eaba13253334fb5877a8c901fd6243d);
+            
+    
+            var popup_106e1d35f1224c2c93bacbcff2f7922b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7d2170db049949d5a5cdbd60784c0f8c = $('<div id="html_7d2170db049949d5a5cdbd60784c0f8c" style="width: 100.0%; height: 100.0%;">CONCERT DE NADAL. CORAL CANTS AL VENT 22/12/2018 19:30</div>')[0];
+                popup_106e1d35f1224c2c93bacbcff2f7922b.setContent(html_7d2170db049949d5a5cdbd60784c0f8c);
+            
+
+            marker_f84bbdbb409a407f83a4fbb4b02d9ac3.bindPopup(popup_106e1d35f1224c2c93bacbcff2f7922b)
+            ;
+
+            
+        
+    
+        var marker_72b2c193553446d199acb67c24912aaa = L.marker(
+            [41.5455, 2.10815],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_fe7ebcf539574697a91c9502318fce6a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_72b2c193553446d199acb67c24912aaa.setIcon(icon_fe7ebcf539574697a91c9502318fce6a);
+            
+    
+            var popup_3107a4da5be64b43bd46adbb88e4541c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_39d041db5eb04b9188b57e7785aa7d0e = $('<div id="html_39d041db5eb04b9188b57e7785aa7d0e" style="width: 100.0%; height: 100.0%;">CONCERT CANTA GRAN! SABADELL 12/12/2018 18:00</div>')[0];
+                popup_3107a4da5be64b43bd46adbb88e4541c.setContent(html_39d041db5eb04b9188b57e7785aa7d0e);
+            
+
+            marker_72b2c193553446d199acb67c24912aaa.bindPopup(popup_3107a4da5be64b43bd46adbb88e4541c)
+            ;
+
+            
+        
+    
+        var marker_31642baa161d4cbebdc6500f034563ad = L.marker(
+            [41.5468, 2.10582],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_1de5d71f8d6748eb9bfcfc3b7e566e14 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_31642baa161d4cbebdc6500f034563ad.setIcon(icon_1de5d71f8d6748eb9bfcfc3b7e566e14);
+            
+    
+            var popup_3d00a3acd5024bef98a6543a674e4dce = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dabcd5d44d4140c9ae8dd053e981687b = $('<div id="html_dabcd5d44d4140c9ae8dd053e981687b" style="width: 100.0%; height: 100.0%;">LA CREU ALTA SOLIDÀRIA. CONCERT DE NADAL 15/12/2018 12:00</div>')[0];
+                popup_3d00a3acd5024bef98a6543a674e4dce.setContent(html_dabcd5d44d4140c9ae8dd053e981687b);
+            
+
+            marker_31642baa161d4cbebdc6500f034563ad.bindPopup(popup_3d00a3acd5024bef98a6543a674e4dce)
+            ;
+
+            
+        
+    
+        var marker_63b6673eac0d48f7837782d586200742 = L.marker(
+            [41.5468, 2.10582],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_08d2ed3ce60a4f55975843155997f4e1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_63b6673eac0d48f7837782d586200742.setIcon(icon_08d2ed3ce60a4f55975843155997f4e1);
+            
+    
+            var popup_8a66356d9bbd4cba9778daa94ff75f2f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_71e812f5e27a456cb16f212b0e3c9666 = $('<div id="html_71e812f5e27a456cb16f212b0e3c9666" style="width: 100.0%; height: 100.0%;">LA CREU ALTA SOLIDÀRIA. CONCERT DE NADAL 16/12/2018 12:00</div>')[0];
+                popup_8a66356d9bbd4cba9778daa94ff75f2f.setContent(html_71e812f5e27a456cb16f212b0e3c9666);
+            
+
+            marker_63b6673eac0d48f7837782d586200742.bindPopup(popup_8a66356d9bbd4cba9778daa94ff75f2f)
+            ;
+
+            
+        
+    
+        var marker_7bccbef96e4d48458b72f4e456a1b64d = L.marker(
+            [41.5487, 2.10844],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_3fd9db8d0fb64bd8b2a6239a56e1c5f5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7bccbef96e4d48458b72f4e456a1b64d.setIcon(icon_3fd9db8d0fb64bd8b2a6239a56e1c5f5);
+            
+    
+            var popup_825e7df080eb4b20b40339604ccf05a9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a7238f93df6646fd8f06dbe605a59de7 = $('<div id="html_a7238f93df6646fd8f06dbe605a59de7" style="width: 100.0%; height: 100.0%;">VÍCTOR BRAOJOS. CONCERT EXTRAORDINARI DE NADAL 20/12/2018 19:00</div>')[0];
+                popup_825e7df080eb4b20b40339604ccf05a9.setContent(html_a7238f93df6646fd8f06dbe605a59de7);
+            
+
+            marker_7bccbef96e4d48458b72f4e456a1b64d.bindPopup(popup_825e7df080eb4b20b40339604ccf05a9)
+            ;
+
+            
+        
+    
+        var marker_4b49f7cac16e4acf9856d1928f057193 = L.marker(
+            [41.5411, 2.11025],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_22b3de6486cb4e63b92799d518f8a7f9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4b49f7cac16e4acf9856d1928f057193.setIcon(icon_22b3de6486cb4e63b92799d518f8a7f9);
+            
+    
+            var popup_616303e26c734cbf9c050a06bb8ae435 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6a8354c1e4bb4cf89cd37245e00c8fcb = $('<div id="html_6a8354c1e4bb4cf89cd37245e00c8fcb" style="width: 100.0%; height: 100.0%;">LA FLAUTA MÀGICA? CONFERÈNCIA 21/12/2018 20:15</div>')[0];
+                popup_616303e26c734cbf9c050a06bb8ae435.setContent(html_6a8354c1e4bb4cf89cd37245e00c8fcb);
+            
+
+            marker_4b49f7cac16e4acf9856d1928f057193.bindPopup(popup_616303e26c734cbf9c050a06bb8ae435)
+            ;
+
+            
+        
+    
+        var marker_4e7787191fd04791bd6d4a2ddec187b4 = L.marker(
+            [41.5456, 2.1107],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_09a9af8ad383484688391da78c0f17aa = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4e7787191fd04791bd6d4a2ddec187b4.setIcon(icon_09a9af8ad383484688391da78c0f17aa);
+            
+    
+            var popup_bcf5c8d1310748a194be72a6ce0876ef = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4a5b985f8ca24055be6175cfe3ddd1e9 = $('<div id="html_4a5b985f8ca24055be6175cfe3ddd1e9" style="width: 100.0%; height: 100.0%;">CONCERT CIRCULAR PALESTINA BATEGA 02/12/2018 12:00</div>')[0];
+                popup_bcf5c8d1310748a194be72a6ce0876ef.setContent(html_4a5b985f8ca24055be6175cfe3ddd1e9);
+            
+
+            marker_4e7787191fd04791bd6d4a2ddec187b4.bindPopup(popup_bcf5c8d1310748a194be72a6ce0876ef)
+            ;
+
+            
+        
+    
+        var marker_171d6ccffe70442c8e802757dc0f2202 = L.marker(
+            [41.5533, 2.10007],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_1c5192d972b9415fb21f7bfe971a0c7f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_171d6ccffe70442c8e802757dc0f2202.setIcon(icon_1c5192d972b9415fb21f7bfe971a0c7f);
+            
+    
+            var popup_f7f96e515e02452195db2725d226fe2e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e2e2b69a7b024ca0b7fa675829c14e1a = $('<div id="html_e2e2b69a7b024ca0b7fa675829c14e1a" style="width: 100.0%; height: 100.0%;">ESTUDIO DE LA AUSENCIA. DAVID MONTOSA. ARTS VISUALS 14/12/2018 18:00</div>')[0];
+                popup_f7f96e515e02452195db2725d226fe2e.setContent(html_e2e2b69a7b024ca0b7fa675829c14e1a);
+            
+
+            marker_171d6ccffe70442c8e802757dc0f2202.bindPopup(popup_f7f96e515e02452195db2725d226fe2e)
+            ;
+
+            
+        
+    
+        var marker_0c7f6f43fc464bd5b0110c2d45b82aa1 = L.marker(
+            [41.5533, 2.10007],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_e0fdb6eec5954205ab4c82aa2d26c196 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0c7f6f43fc464bd5b0110c2d45b82aa1.setIcon(icon_e0fdb6eec5954205ab4c82aa2d26c196);
+            
+    
+            var popup_e07bfe2f65b243428eff9337ecee2655 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d6c4cc7d78dc41e28a429a35d8ffbe8b = $('<div id="html_d6c4cc7d78dc41e28a429a35d8ffbe8b" style="width: 100.0%; height: 100.0%;">CARN, MOVIMENT I INFRAESTRUCTURA. GUILLEM S. ARQUER. ARTS VISUALS 14/12/2018 18:00</div>')[0];
+                popup_e07bfe2f65b243428eff9337ecee2655.setContent(html_d6c4cc7d78dc41e28a429a35d8ffbe8b);
+            
+
+            marker_0c7f6f43fc464bd5b0110c2d45b82aa1.bindPopup(popup_e07bfe2f65b243428eff9337ecee2655)
+            ;
+
+            
+        
+    
+        var marker_f5067b47b9034079a8726c1c3db82e6f = L.marker(
+            [41.5533, 2.10007],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_5d4c713455ae4486b2e96c13750e6c0f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f5067b47b9034079a8726c1c3db82e6f.setIcon(icon_5d4c713455ae4486b2e96c13750e6c0f);
+            
+    
+            var popup_4637493f0f28446a86a574747c9c991b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cef0594394c14baaab2edce14dc9fea2 = $('<div id="html_cef0594394c14baaab2edce14dc9fea2" style="width: 100.0%; height: 100.0%;">CENSURA Y LEGALIDAD. LA LIBERTAD DE EXPRESIÓN EN LOS TIEMPOS MODERNOS. MIGUEL ANDRÉS. ARTS VISUALS 14/12/2018 18:00</div>')[0];
+                popup_4637493f0f28446a86a574747c9c991b.setContent(html_cef0594394c14baaab2edce14dc9fea2);
+            
+
+            marker_f5067b47b9034079a8726c1c3db82e6f.bindPopup(popup_4637493f0f28446a86a574747c9c991b)
+            ;
+
+            
+        
+    
+        var marker_72058b7f46944a97a0891792215247cf = L.marker(
+            [41.5481, 2.10773],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_9610d67bfd1b467a936cd725e0eafe0b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_72058b7f46944a97a0891792215247cf.setIcon(icon_9610d67bfd1b467a936cd725e0eafe0b);
+            
+    
+            var popup_dd262267b58841178c06d0943369ef97 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5cc5d3c5c90d45c9a7cd035644227137 = $('<div id="html_5cc5d3c5c90d45c9a7cd035644227137" style="width: 100.0%; height: 100.0%;">TRES PREMONICIONS DE GUERRA SABADELLENQUES: ANTONI BAQUÉS; LA PUGNA ENTRE PLATT BROTHERS I HARTTMANN 05/12/2018 19:00</div>')[0];
+                popup_dd262267b58841178c06d0943369ef97.setContent(html_5cc5d3c5c90d45c9a7cd035644227137);
+            
+
+            marker_72058b7f46944a97a0891792215247cf.bindPopup(popup_dd262267b58841178c06d0943369ef97)
+            ;
+
+            
+        
+    
+        var marker_16173063db7e41c9a87562c3d284b3f4 = L.marker(
+            [41.5481, 2.10773],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_a77998a0b8df46e5baf8cff3ae8f2af5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_16173063db7e41c9a87562c3d284b3f4.setIcon(icon_a77998a0b8df46e5baf8cff3ae8f2af5);
+            
+    
+            var popup_f47ceee8342840bc8d9af5f88e8a97aa = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fb57e5bbd95c465b87c91a80516a2263 = $('<div id="html_fb57e5bbd95c465b87c91a80516a2263" style="width: 100.0%; height: 100.0%;">REFLEXIONS FILOSÒFIQUES SOBRE LA MORT. CONFERÈNCIA 24/01/2019 00:00</div>')[0];
+                popup_f47ceee8342840bc8d9af5f88e8a97aa.setContent(html_fb57e5bbd95c465b87c91a80516a2263);
+            
+
+            marker_16173063db7e41c9a87562c3d284b3f4.bindPopup(popup_f47ceee8342840bc8d9af5f88e8a97aa)
+            ;
+
+            
+        
+    
+        var marker_51e094fa07a8416e935be0e8843280bd = L.marker(
+            [41.5533, 2.10007],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_2be150f244e749a49ac6b7e003410150 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_51e094fa07a8416e935be0e8843280bd.setIcon(icon_2be150f244e749a49ac6b7e003410150);
+            
+    
+            var popup_42a08df0fba1422f8f50c320f142261c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_22bab5ae38344d70a40e5de2f01efc87 = $('<div id="html_22bab5ae38344d70a40e5de2f01efc87" style="width: 100.0%; height: 100.0%;">QUÈ ÉS EL CROWFUNDING I COM FUNCIONA? ARTS DIGITALS 21/12/2018 17:00</div>')[0];
+                popup_42a08df0fba1422f8f50c320f142261c.setContent(html_22bab5ae38344d70a40e5de2f01efc87);
+            
+
+            marker_51e094fa07a8416e935be0e8843280bd.bindPopup(popup_42a08df0fba1422f8f50c320f142261c)
+            ;
+
+            
+        
+    
+        var marker_6619025cdbca42b482900b2526cd5134 = L.marker(
+            [41.5468, 2.10582],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_df906dcc157147ba9f37b35d445814be = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6619025cdbca42b482900b2526cd5134.setIcon(icon_df906dcc157147ba9f37b35d445814be);
+            
+    
+            var popup_9959320b6add422fa5d5f903eab14909 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d5ffeff12a09448d9f4c3c76d479184a = $('<div id="html_d5ffeff12a09448d9f4c3c76d479184a" style="width: 100.0%; height: 100.0%;">EDIFICIS MODERNISTES DE LA FUNDACIÓ ANTIGA CAIXA SABADELL 1859. VISITA COMENTADA 30/12/2018 00:00</div>')[0];
+                popup_9959320b6add422fa5d5f903eab14909.setContent(html_d5ffeff12a09448d9f4c3c76d479184a);
+            
+
+            marker_6619025cdbca42b482900b2526cd5134.bindPopup(popup_9959320b6add422fa5d5f903eab14909)
+            ;
+
+            
+        
+    
+        var marker_4930f78525604ebe86502fc52c875e81 = L.marker(
+            [41.5468, 2.10582],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_1d1372c624034d6db6e108c1beca2597 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4930f78525604ebe86502fc52c875e81.setIcon(icon_1d1372c624034d6db6e108c1beca2597);
+            
+    
+            var popup_de0d903389cd40afad513910d3319615 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7da0e5ed79da400baeddec0cedaa21e7 = $('<div id="html_7da0e5ed79da400baeddec0cedaa21e7" style="width: 100.0%; height: 100.0%;">EDIFICIS MODERNISTES DE LA FUNDACIÓ ANTIGA CAIXA SABADELL 1859. VISITA COMENTADA 27/01/2019 00:00</div>')[0];
+                popup_de0d903389cd40afad513910d3319615.setContent(html_7da0e5ed79da400baeddec0cedaa21e7);
+            
+
+            marker_4930f78525604ebe86502fc52c875e81.bindPopup(popup_de0d903389cd40afad513910d3319615)
+            ;
+
+            
+        
+    
+        var marker_8b28455aef33446aa6c7e255ad2a1b1c = L.marker(
+            [41.5481, 2.10773],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_24aa66bccf2e4ebc863ca140857a19f1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8b28455aef33446aa6c7e255ad2a1b1c.setIcon(icon_24aa66bccf2e4ebc863ca140857a19f1);
+            
+    
+            var popup_6de12559d85d474481e5abcee9b8e85c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d135801a49e54a2a8fbf4104d5920545 = $('<div id="html_d135801a49e54a2a8fbf4104d5920545" style="width: 100.0%; height: 100.0%;">LA LLOMBARDIA: AMICS DE L&apos;ART ROMÀNIC DE SABADELL. CONFERÈNCIA 12/12/2018 19:00</div>')[0];
+                popup_6de12559d85d474481e5abcee9b8e85c.setContent(html_d135801a49e54a2a8fbf4104d5920545);
+            
+
+            marker_8b28455aef33446aa6c7e255ad2a1b1c.bindPopup(popup_6de12559d85d474481e5abcee9b8e85c)
+            ;
+
+            
+        
+    
+        var marker_1e43d42bb2644d7b8f59159a208e36fe = L.marker(
+            [41.5481, 2.10773],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_ac52d2d2cbd44fe7af8e0e5b7c25385b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1e43d42bb2644d7b8f59159a208e36fe.setIcon(icon_ac52d2d2cbd44fe7af8e0e5b7c25385b);
+            
+    
+            var popup_18c014e212d146b096a7cc547a5841dd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ae9e9592dc704b2c96385f1099fda9e6 = $('<div id="html_ae9e9592dc704b2c96385f1099fda9e6" style="width: 100.0%; height: 100.0%;">EL CASTELL DE SENTMENAT - CAN FRUITÓS - POLINYÀ. CONFERÈNCIA 16/01/2019 00:00</div>')[0];
+                popup_18c014e212d146b096a7cc547a5841dd.setContent(html_ae9e9592dc704b2c96385f1099fda9e6);
+            
+
+            marker_1e43d42bb2644d7b8f59159a208e36fe.bindPopup(popup_18c014e212d146b096a7cc547a5841dd)
+            ;
+
+            
+        
+    
+        var marker_271b46384c9141849170ce13e45b29f0 = L.marker(
+            [41.5481, 2.10773],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_dd52de31845e4ff2b806617db22bc0cd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_271b46384c9141849170ce13e45b29f0.setIcon(icon_dd52de31845e4ff2b806617db22bc0cd);
+            
+    
+            var popup_c480e545f3614e7da20f88fa103080d6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_26242f5936764cc4b1e3b0019900588b = $('<div id="html_26242f5936764cc4b1e3b0019900588b" style="width: 100.0%; height: 100.0%;">L&apos;ESTANY, SANT ISCLE DE BÀGES, CAPUTXINES DE MANRESA. CONFERÈNCIA 06/03/2019 19:00</div>')[0];
+                popup_c480e545f3614e7da20f88fa103080d6.setContent(html_26242f5936764cc4b1e3b0019900588b);
+            
+
+            marker_271b46384c9141849170ce13e45b29f0.bindPopup(popup_c480e545f3614e7da20f88fa103080d6)
+            ;
+
+            
+        
+    
+        var marker_8a0d90cf164249e09f5f74dd5d7de7af = L.marker(
+            [41.5481, 2.10773],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_4b417c74434a4a7dbf0ebd56c97a514c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8a0d90cf164249e09f5f74dd5d7de7af.setIcon(icon_4b417c74434a4a7dbf0ebd56c97a514c);
+            
+    
+            var popup_bfc629b9ce1d43f68668516b6b3265f8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ff198df73bb94f148bb0fa9ef892077e = $('<div id="html_ff198df73bb94f148bb0fa9ef892077e" style="width: 100.0%; height: 100.0%;">EL MONESTIR DE RIPOLL ENLLÀ D&apos;ÒLIBA. EL DESPLEGAMENT ESCULTÒRIC DEL SEGLE XII. CONFERÈNCIA 20/02/2019 00:00</div>')[0];
+                popup_bfc629b9ce1d43f68668516b6b3265f8.setContent(html_ff198df73bb94f148bb0fa9ef892077e);
+            
+
+            marker_8a0d90cf164249e09f5f74dd5d7de7af.bindPopup(popup_bfc629b9ce1d43f68668516b6b3265f8)
+            ;
+
+            
+        
+    
+        var marker_527509e020a54dee846cdf06b5d9afe7 = L.marker(
+            [41.5466, 2.10661],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_686549508dca4819a1c2d95a23996664 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_527509e020a54dee846cdf06b5d9afe7.setIcon(icon_686549508dca4819a1c2d95a23996664);
+            
+    
+            var popup_9cf38da1ecb043a3babf8b19d84d6b13 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_32e7b93a8e1e482dbdbd784f6914250a = $('<div id="html_32e7b93a8e1e482dbdbd784f6914250a" style="width: 100.0%; height: 100.0%;">LES VAGUES A SABADELL DURANT ELS ANYS DE LA PRIMERA GUERRA MUNDIAL (1914-1918). CONFERÈNCIA 13/12/2018 00:00</div>')[0];
+                popup_9cf38da1ecb043a3babf8b19d84d6b13.setContent(html_32e7b93a8e1e482dbdbd784f6914250a);
+            
+
+            marker_527509e020a54dee846cdf06b5d9afe7.bindPopup(popup_9cf38da1ecb043a3babf8b19d84d6b13)
+            ;
+
+            
+        
+    
+        var marker_5ea57214fb084c92a07cd3cc6526b4cd = L.marker(
+            [41.548, 2.10946],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_27b6de6e4c5842e9b05670a53c691cf0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5ea57214fb084c92a07cd3cc6526b4cd.setIcon(icon_27b6de6e4c5842e9b05670a53c691cf0);
+            
+    
+            var popup_6c031c21b3d64434aff361f94ac4aadd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3eb8127fc2e54079856ceeb82d87c633 = $('<div id="html_3eb8127fc2e54079856ceeb82d87c633" style="width: 100.0%; height: 100.0%;">L&apos;ACADÈMIA EN EL TEMPS DE LA GRAN GUERRA. CONFERÈNCIA 17/01/2019 19:00</div>')[0];
+                popup_6c031c21b3d64434aff361f94ac4aadd.setContent(html_3eb8127fc2e54079856ceeb82d87c633);
+            
+
+            marker_5ea57214fb084c92a07cd3cc6526b4cd.bindPopup(popup_6c031c21b3d64434aff361f94ac4aadd)
+            ;
+
+            
+        
+    
+        var marker_727d57ede4dd426ead86b9e94ae9829f = L.marker(
+            [41.5488, 2.10931],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_1ff85db37e3a4d57988447076d39c7f5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_727d57ede4dd426ead86b9e94ae9829f.setIcon(icon_1ff85db37e3a4d57988447076d39c7f5);
+            
+    
+            var popup_cad06f1fd4494e51915b484a7cabb3f4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cf4bd4cae50e45648a4776b5ca2f5551 = $('<div id="html_cf4bd4cae50e45648a4776b5ca2f5551" style="width: 100.0%; height: 100.0%;">L&apos;ART SABADELLENC ALS ANYS DE LA GRAN GUERRA. CONFERÈNCIA 11/12/2018 19:00</div>')[0];
+                popup_cad06f1fd4494e51915b484a7cabb3f4.setContent(html_cf4bd4cae50e45648a4776b5ca2f5551);
+            
+
+            marker_727d57ede4dd426ead86b9e94ae9829f.bindPopup(popup_cad06f1fd4494e51915b484a7cabb3f4)
+            ;
+
+            
+        
+    
+        var marker_2239bbea397547508cbb74937b05d836 = L.marker(
+            [41.5488, 2.1024],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_a79284691f974026a4109fa03b26e30c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2239bbea397547508cbb74937b05d836.setIcon(icon_a79284691f974026a4109fa03b26e30c);
+            
+    
+            var popup_b51fd039d5294ae387e9780e95d9a0aa = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c58e0627ae444a98867a5d4d1f88c180 = $('<div id="html_c58e0627ae444a98867a5d4d1f88c180" style="width: 100.0%; height: 100.0%;">1918: 100 ANYS DE L&apos;ESCOLA PIA A SABADELL. L&apos;ENSENYAMENT EN TEMPS DE GUERRA. CONFERÈNCIA 15/01/2019 19:15</div>')[0];
+                popup_b51fd039d5294ae387e9780e95d9a0aa.setContent(html_c58e0627ae444a98867a5d4d1f88c180);
+            
+
+            marker_2239bbea397547508cbb74937b05d836.bindPopup(popup_b51fd039d5294ae387e9780e95d9a0aa)
+            ;
+
+            
+        
+    
+        var marker_cbf96c703f644faf90b2958dc5f1b3ef = L.marker(
+            [41.5444, 2.11028],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_26ec04c65f0a4ac690fb24b8bb967296 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cbf96c703f644faf90b2958dc5f1b3ef.setIcon(icon_26ec04c65f0a4ac690fb24b8bb967296);
+            
+    
+            var popup_6760221af88f4b99a0f6714899b96571 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ce84e0129a2747ba8b05333d7ecc7ded = $('<div id="html_ce84e0129a2747ba8b05333d7ecc7ded" style="width: 100.0%; height: 100.0%;">PROJECTANT SABADELL DURANT LA GRAN GUERRA. EXPOSICIÓ 18/01/2019 19:00</div>')[0];
+                popup_6760221af88f4b99a0f6714899b96571.setContent(html_ce84e0129a2747ba8b05333d7ecc7ded);
+            
+
+            marker_cbf96c703f644faf90b2958dc5f1b3ef.bindPopup(popup_6760221af88f4b99a0f6714899b96571)
+            ;
+
+            
+        
+    
+        var marker_549254b4f45a46ed9358fa6c63229ab1 = L.marker(
+            [41.5481, 2.10773],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_5ca082e1ecdc4b79a545d9fa5799ddd4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_549254b4f45a46ed9358fa6c63229ab1.setIcon(icon_5ca082e1ecdc4b79a545d9fa5799ddd4);
+            
+    
+            var popup_15db43dfad3c4f41a3cc711a000698f5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e012bae1ed564ef495dd41e8a9117c40 = $('<div id="html_e012bae1ed564ef495dd41e8a9117c40" style="width: 100.0%; height: 100.0%;">L&apos;HOME DELS NASSOS. L&apos;HORA DEL CONTE 27/12/2018 17:30</div>')[0];
+                popup_15db43dfad3c4f41a3cc711a000698f5.setContent(html_e012bae1ed564ef495dd41e8a9117c40);
+            
+
+            marker_549254b4f45a46ed9358fa6c63229ab1.bindPopup(popup_15db43dfad3c4f41a3cc711a000698f5)
+            ;
+
+            
+        
+    
+        var marker_3b7b9845a8084c7ebe5edbfbfb64baaa = L.marker(
+            [41.5481, 2.10773],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_4226f22306854849a774cf6ef390e225 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3b7b9845a8084c7ebe5edbfbfb64baaa.setIcon(icon_4226f22306854849a774cf6ef390e225);
+            
+    
+            var popup_c114b7a0bea5453f8dbb1f262463fc16 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c73c05bad0e74ebfb7d22bbaf1667355 = $('<div id="html_c73c05bad0e74ebfb7d22bbaf1667355" style="width: 100.0%; height: 100.0%;">FEM UNA JOIA DE L&apos;EDAT DE PEDRA. TALLER 04/01/2019 11:30</div>')[0];
+                popup_c114b7a0bea5453f8dbb1f262463fc16.setContent(html_c73c05bad0e74ebfb7d22bbaf1667355);
+            
+
+            marker_3b7b9845a8084c7ebe5edbfbfb64baaa.bindPopup(popup_c114b7a0bea5453f8dbb1f262463fc16)
+            ;
+
+            
+        
+    
+        var marker_94bba2ae5e604c9593caf9653adbf8fe = L.marker(
+            [41.5481, 2.10773],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_d83ba8d6a4934c559d45370a80a3655b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_94bba2ae5e604c9593caf9653adbf8fe.setIcon(icon_d83ba8d6a4934c559d45370a80a3655b);
+            
+    
+            var popup_8a6630ea25c542f5ab53b71bcc5eafb3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_33a2575d48ef4fbaa9b2eab6ef86361d = $('<div id="html_33a2575d48ef4fbaa9b2eab6ef86361d" style="width: 100.0%; height: 100.0%;">FEM UNA JOIA DE L&apos;EDAT DE PEDRA. TALLER 02/01/2019 11:30</div>')[0];
+                popup_8a6630ea25c542f5ab53b71bcc5eafb3.setContent(html_33a2575d48ef4fbaa9b2eab6ef86361d);
+            
+
+            marker_94bba2ae5e604c9593caf9653adbf8fe.bindPopup(popup_8a6630ea25c542f5ab53b71bcc5eafb3)
+            ;
+
+            
+        
+    
+        var marker_5738a4be18e442e9af9c3ae11843b731 = L.marker(
+            [41.5481, 2.10773],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_9db7d6662080462880276de4c67887ab = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5738a4be18e442e9af9c3ae11843b731.setIcon(icon_9db7d6662080462880276de4c67887ab);
+            
+    
+            var popup_25e51789be8e4f3d9a2247fe3d723c5a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7fc66bb9c7be4f62b30831975ef83099 = $('<div id="html_7fc66bb9c7be4f62b30831975ef83099" style="width: 100.0%; height: 100.0%;">EL NADAL DE L&apos;ÀVIA CATERINA. L&apos;HORA DEL CONTE 03/01/2019 17:30</div>')[0];
+                popup_25e51789be8e4f3d9a2247fe3d723c5a.setContent(html_7fc66bb9c7be4f62b30831975ef83099);
+            
+
+            marker_5738a4be18e442e9af9c3ae11843b731.bindPopup(popup_25e51789be8e4f3d9a2247fe3d723c5a)
+            ;
+
+            
+        
+    
+        var marker_0904b992aa264481a21871ff59222e8f = L.marker(
+            [41.5488, 2.10931],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_684dd1423edd41d7a539fe67b4236d28 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0904b992aa264481a21871ff59222e8f.setIcon(icon_684dd1423edd41d7a539fe67b4236d28);
+            
+    
+            var popup_afbfb20bc2e545f0a157077a11901195 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e172c96964da4f8c9297e0c55666e47a = $('<div id="html_e172c96964da4f8c9297e0c55666e47a" style="width: 100.0%; height: 100.0%;">TALLERS DE NADAL AL MUSEU D&apos;ART 03/01/2019 11:00</div>')[0];
+                popup_afbfb20bc2e545f0a157077a11901195.setContent(html_e172c96964da4f8c9297e0c55666e47a);
+            
+
+            marker_0904b992aa264481a21871ff59222e8f.bindPopup(popup_afbfb20bc2e545f0a157077a11901195)
+            ;
+
+            
+        
+    
+        var marker_82910611b9df4ed3af7d9373458e3358 = L.marker(
+            [41.5488, 2.10931],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_4af3a78da02a419fac0f76b7d3a18512 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_82910611b9df4ed3af7d9373458e3358.setIcon(icon_4af3a78da02a419fac0f76b7d3a18512);
+            
+    
+            var popup_da892e86bc4c4952b2913e8635501629 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5d4991a235d044ea9ae1003edb670dc8 = $('<div id="html_5d4991a235d044ea9ae1003edb670dc8" style="width: 100.0%; height: 100.0%;">TALLERS DE NADAL AL MUSEU D&apos;ART 02/01/2019 17:30</div>')[0];
+                popup_da892e86bc4c4952b2913e8635501629.setContent(html_5d4991a235d044ea9ae1003edb670dc8);
+            
+
+            marker_82910611b9df4ed3af7d9373458e3358.bindPopup(popup_da892e86bc4c4952b2913e8635501629)
+            ;
+
+            
+        
+    
+        var marker_646a92723dce483685fd008a8e5cfb9b = L.marker(
+            [41.5488, 2.10931],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_b3348b8fadcb4d779fe39e7514628d46 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_646a92723dce483685fd008a8e5cfb9b.setIcon(icon_b3348b8fadcb4d779fe39e7514628d46);
+            
+    
+            var popup_799e4f5ecf524aaaa44c374821422ce6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_124db62cda464ed1a034d1434ca51086 = $('<div id="html_124db62cda464ed1a034d1434ca51086" style="width: 100.0%; height: 100.0%;">TALLERS DE NADAL AL MUSEU D&apos;ART 28/12/2018 11:00</div>')[0];
+                popup_799e4f5ecf524aaaa44c374821422ce6.setContent(html_124db62cda464ed1a034d1434ca51086);
+            
+
+            marker_646a92723dce483685fd008a8e5cfb9b.bindPopup(popup_799e4f5ecf524aaaa44c374821422ce6)
+            ;
+
+            
+        
+    
+        var marker_99512e3aa02048fb8ac37acd0caffc92 = L.marker(
+            [41.5488, 2.10931],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_827d67ec2335452a9abbaacf3f5e0bd2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_99512e3aa02048fb8ac37acd0caffc92.setIcon(icon_827d67ec2335452a9abbaacf3f5e0bd2);
+            
+    
+            var popup_cf26f34f99a64d5bb6e9693c5d4db49f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6fb0d19e15de4effa548e3d0e719637d = $('<div id="html_6fb0d19e15de4effa548e3d0e719637d" style="width: 100.0%; height: 100.0%;">TALLERS DE NADAL AL MUSEU D&apos;ART 27/12/2018 11:00</div>')[0];
+                popup_cf26f34f99a64d5bb6e9693c5d4db49f.setContent(html_6fb0d19e15de4effa548e3d0e719637d);
+            
+
+            marker_99512e3aa02048fb8ac37acd0caffc92.bindPopup(popup_cf26f34f99a64d5bb6e9693c5d4db49f)
+            ;
+
+            
+        
+    
+        var marker_b485957a9d234094901469ff5368a36a = L.marker(
+            [41.5487, 2.10844],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_92d9ac731d38461aac13ea120c67c79b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b485957a9d234094901469ff5368a36a.setIcon(icon_92d9ac731d38461aac13ea120c67c79b);
+            
+    
+            var popup_7a6eea8edcb84f6bbe6ebc3c99257063 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_abdaf0dee315465982d801d17627ab39 = $('<div id="html_abdaf0dee315465982d801d17627ab39" style="width: 100.0%; height: 100.0%;">IV EDICIÓ ART EMERGENT SABADELL 2018. EXPOSICIÓ 15/12/2018 18:00</div>')[0];
+                popup_7a6eea8edcb84f6bbe6ebc3c99257063.setContent(html_abdaf0dee315465982d801d17627ab39);
+            
+
+            marker_b485957a9d234094901469ff5368a36a.bindPopup(popup_7a6eea8edcb84f6bbe6ebc3c99257063)
+            ;
+
+            
+        
+    
+        var marker_2f1a6c11682f4d918d7a895cc1c6c121 = L.marker(
+            [41.5481, 2.10773],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_fa55237d93c24831a1b03249aa0a4361 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2f1a6c11682f4d918d7a895cc1c6c121.setIcon(icon_fa55237d93c24831a1b03249aa0a4361);
+            
+    
+            var popup_4f13bce218134c47b856069130f248ac = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f645373fbe1246d5b30f60dfdfc05181 = $('<div id="html_f645373fbe1246d5b30f60dfdfc05181" style="width: 100.0%; height: 100.0%;">VIDA I MORT A LA BASTIDA (TOTANA, MÚRCIA). CONFERÈNCIA 18/12/2018 19:00</div>')[0];
+                popup_4f13bce218134c47b856069130f248ac.setContent(html_f645373fbe1246d5b30f60dfdfc05181);
+            
+
+            marker_2f1a6c11682f4d918d7a895cc1c6c121.bindPopup(popup_4f13bce218134c47b856069130f248ac)
+            ;
+
+            
+        
+    
+        var marker_c580367568fb41989761a70a01e320e9 = L.marker(
+            [41.5481, 2.10773],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_3c1707d52ae84afc9c32d97cf6f75e87 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c580367568fb41989761a70a01e320e9.setIcon(icon_3c1707d52ae84afc9c32d97cf6f75e87);
+            
+    
+            var popup_9024e0349fea43a38461b5b9d18ed3bd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_41364d4ba6024dd788e18dee55db5454 = $('<div id="html_41364d4ba6024dd788e18dee55db5454" style="width: 100.0%; height: 100.0%;">EL PROVEÏMENT D&apos;AIGÜES A SABADELL EL PRIMER TERÇ DEL SEGLE XX. CONFERÈNCIA 19/12/2018 19:00</div>')[0];
+                popup_9024e0349fea43a38461b5b9d18ed3bd.setContent(html_41364d4ba6024dd788e18dee55db5454);
+            
+
+            marker_c580367568fb41989761a70a01e320e9.bindPopup(popup_9024e0349fea43a38461b5b9d18ed3bd)
+            ;
+
+            
+        
+    
+        var marker_bcf0c3182cc44ac3a6ff01474f61762c = L.marker(
+            [41.5551, 2.11362],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_2ad6861dabf64019a8b1b0747ef7ec1e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bcf0c3182cc44ac3a6ff01474f61762c.setIcon(icon_2ad6861dabf64019a8b1b0747ef7ec1e);
+            
+    
+            var popup_82ab6e42fac94416b5d18a8b10efc666 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_be39c523ea3e4f1bbc1fad468c4fa481 = $('<div id="html_be39c523ea3e4f1bbc1fad468c4fa481" style="width: 100.0%; height: 100.0%;">CASETA DE LES AIGÜES I TORRE DE L&apos;AIGUA. ITINERARI 16/12/2018 10:00</div>')[0];
+                popup_82ab6e42fac94416b5d18a8b10efc666.setContent(html_be39c523ea3e4f1bbc1fad468c4fa481);
+            
+
+            marker_bcf0c3182cc44ac3a6ff01474f61762c.bindPopup(popup_82ab6e42fac94416b5d18a8b10efc666)
+            ;
+
+            
+        
+    
+        var marker_2326a60d20614d969d83f7f4e70fc045 = L.marker(
+            [41.5488, 2.10931],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_5cc1a8f7744c4bc68c5c8a2aa9763c51 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2326a60d20614d969d83f7f4e70fc045.setIcon(icon_5cc1a8f7744c4bc68c5c8a2aa9763c51);
+            
+    
+            var popup_665aaef49be74a98b8f133163d67c382 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9c15de8f439b4021901a263ed60e95ee = $('<div id="html_9c15de8f439b4021901a263ed60e95ee" style="width: 100.0%; height: 100.0%;">FEM GRAN LA GRAN VIA. TALLER 02/12/2018 12:00</div>')[0];
+                popup_665aaef49be74a98b8f133163d67c382.setContent(html_9c15de8f439b4021901a263ed60e95ee);
+            
+
+            marker_2326a60d20614d969d83f7f4e70fc045.bindPopup(popup_665aaef49be74a98b8f133163d67c382)
+            ;
+
+            
+        
+    
+        var marker_aa6320a75bd5432d85a5a55db5e9d97f = L.marker(
+            [41.5488, 2.10931],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_8bc2dd9ff23d4117aa2178960813cb61 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_aa6320a75bd5432d85a5a55db5e9d97f.setIcon(icon_8bc2dd9ff23d4117aa2178960813cb61);
+            
+    
+            var popup_a17efacf844f452a855f9acbd956eb29 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_75674f14a0d749aa966114d8bc91cd33 = $('<div id="html_75674f14a0d749aa966114d8bc91cd33" style="width: 100.0%; height: 100.0%;">CLAUDIO ZULIAN. VALLÈS. FABRICAR PASSATS, FABRICAR FUTURS. EXPOSICIÓ 18/12/2018 19:00</div>')[0];
+                popup_a17efacf844f452a855f9acbd956eb29.setContent(html_75674f14a0d749aa966114d8bc91cd33);
+            
+
+            marker_aa6320a75bd5432d85a5a55db5e9d97f.bindPopup(popup_a17efacf844f452a855f9acbd956eb29)
+            ;
+
+            
+        
+    
+        var marker_ba6f48d4725a441ea7ea8ab466260176 = L.marker(
+            [41.5488, 2.10931],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_ea1a65b1ef5342639f94c525f14756f3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ba6f48d4725a441ea7ea8ab466260176.setIcon(icon_ea1a65b1ef5342639f94c525f14756f3);
+            
+    
+            var popup_36992089e6614615b2155a0a16b8d2bf = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ccfcef4a86d3494eb36f7ed76dd58f7a = $('<div id="html_ccfcef4a86d3494eb36f7ed76dd58f7a" style="width: 100.0%; height: 100.0%;">LA MÚSICA A LA ZONA HERMÈTICA. UNIFORME HERMÈTIC. CONFERÈNCIA 20/12/2018 12:00</div>')[0];
+                popup_36992089e6614615b2155a0a16b8d2bf.setContent(html_ccfcef4a86d3494eb36f7ed76dd58f7a);
+            
+
+            marker_ba6f48d4725a441ea7ea8ab466260176.bindPopup(popup_36992089e6614615b2155a0a16b8d2bf)
+            ;
+
+            
+        
+    
+        var marker_5e779a2d54ff464698320b43c53d1ca9 = L.marker(
+            [41.5444, 2.11028],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_6325112ae1e4400faf3f6066d17642c8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5e779a2d54ff464698320b43c53d1ca9.setIcon(icon_6325112ae1e4400faf3f6066d17642c8);
+            
+    
+            var popup_41110bfcb0c649139d13def5c34269df = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bb8dfc3385ea4fcabee9f1edc724aed4 = $('<div id="html_bb8dfc3385ea4fcabee9f1edc724aed4" style="width: 100.0%; height: 100.0%;">PROCÉS DE PARTICIPACIÓ CIUTADANA DEL PLA ESPECIAL DEL PATRIMONI DE SABADELL (PEPS) 13/12/2018 18:30</div>')[0];
+                popup_41110bfcb0c649139d13def5c34269df.setContent(html_bb8dfc3385ea4fcabee9f1edc724aed4);
+            
+
+            marker_5e779a2d54ff464698320b43c53d1ca9.bindPopup(popup_41110bfcb0c649139d13def5c34269df)
+            ;
+
+            
+        
+    
+        var marker_80086289755b43be9907529cc5fc01d7 = L.marker(
+            [41.5468, 2.10582],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_59da860317244c0b8b1bc41fe2a0a2b3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_80086289755b43be9907529cc5fc01d7.setIcon(icon_59da860317244c0b8b1bc41fe2a0a2b3);
+            
+    
+            var popup_882acbf578df41cf8a5746a135f3b3ba = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_de4003ad40b843198c08443755912f84 = $('<div id="html_de4003ad40b843198c08443755912f84" style="width: 100.0%; height: 100.0%;">L&apos;AIGUA COM A MOTOR CIUTADÀ A LA GRAN GUERRA. LLUITES I SOLUCIONS PER A L&apos;ESCASSETAT D&apos;AIGUA A SABADELL. CONFERÈNCIA 04/12/2018 19:00</div>')[0];
+                popup_882acbf578df41cf8a5746a135f3b3ba.setContent(html_de4003ad40b843198c08443755912f84);
+            
+
+            marker_80086289755b43be9907529cc5fc01d7.bindPopup(popup_882acbf578df41cf8a5746a135f3b3ba)
+            ;
+
+            
+        
+    
+        var marker_237bba20856f458d8048872d12bb2737 = L.marker(
+            [41.5468, 2.10582],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_304efbdb43384434940c8e37bd11a263 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_237bba20856f458d8048872d12bb2737.setIcon(icon_304efbdb43384434940c8e37bd11a263);
+            
+    
+            var popup_e2861efd70f04e4da093a56d67d070aa = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_dcba38745ac44f0294052eb2178216ef = $('<div id="html_dcba38745ac44f0294052eb2178216ef" style="width: 100.0%; height: 100.0%;">CIÈNCIA PER NADAL. CONFERÈNCIA 19/12/2018 18:30</div>')[0];
+                popup_e2861efd70f04e4da093a56d67d070aa.setContent(html_dcba38745ac44f0294052eb2178216ef);
+            
+
+            marker_237bba20856f458d8048872d12bb2737.bindPopup(popup_e2861efd70f04e4da093a56d67d070aa)
+            ;
+
+            
+        
+    
+        var marker_88da9da9950c45b49f244a69423aeb8f = L.marker(
+            [41.5538, 2.08465],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_5ab8e0b8ee20423091310f1d4ebcfd51 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_88da9da9950c45b49f244a69423aeb8f.setIcon(icon_5ab8e0b8ee20423091310f1d4ebcfd51);
+            
+    
+            var popup_593e42485b0948609a1f515aa6ca8d63 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_07626d6295fb4547bbf0a79e57fe3ac4 = $('<div id="html_07626d6295fb4547bbf0a79e57fe3ac4" style="width: 100.0%; height: 100.0%;">DRETS HUMANS I POBLE GITANO. XERRADA 14/12/2018 18:00</div>')[0];
+                popup_593e42485b0948609a1f515aa6ca8d63.setContent(html_07626d6295fb4547bbf0a79e57fe3ac4);
+            
+
+            marker_88da9da9950c45b49f244a69423aeb8f.bindPopup(popup_593e42485b0948609a1f515aa6ca8d63)
+            ;
+
+            
+        
+    
+        var marker_81badb5e44174bcea770b0c5aa651d30 = L.marker(
+            [41.5501, 2.0973],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_131cc44f17a8455989cdc059dc77b5ad = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_81badb5e44174bcea770b0c5aa651d30.setIcon(icon_131cc44f17a8455989cdc059dc77b5ad);
+            
+    
+            var popup_649a4065229e41ee8907a8cc52a30fb4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_95a7fde40016493ba472cfe3f302e3a7 = $('<div id="html_95a7fde40016493ba472cfe3f302e3a7" style="width: 100.0%; height: 100.0%;">COMETES I ASTEROIDES. TALLER 15/12/2018 18:00</div>')[0];
+                popup_649a4065229e41ee8907a8cc52a30fb4.setContent(html_95a7fde40016493ba472cfe3f302e3a7);
+            
+
+            marker_81badb5e44174bcea770b0c5aa651d30.bindPopup(popup_649a4065229e41ee8907a8cc52a30fb4)
+            ;
+
+            
+        
+    
+        var marker_7a646e21bb2841b29623ab44aace5ee0 = L.marker(
+            [41.5468, 2.10582],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_a175eec0fffe4505a0332e94feaa4d91 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7a646e21bb2841b29623ab44aace5ee0.setIcon(icon_a175eec0fffe4505a0332e94feaa4d91);
+            
+    
+            var popup_6d2de80e88734db999dea7c89f9ccef1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c5ca3c008a0847648f80efac6633e9a9 = $('<div id="html_c5ca3c008a0847648f80efac6633e9a9" style="width: 100.0%; height: 100.0%;">MINI INNOVA - PROGRAMA VIDEOJOCS AMB SCRATCH. TALLER FAMILIAR 02/01/2019 10:00</div>')[0];
+                popup_6d2de80e88734db999dea7c89f9ccef1.setContent(html_c5ca3c008a0847648f80efac6633e9a9);
+            
+
+            marker_7a646e21bb2841b29623ab44aace5ee0.bindPopup(popup_6d2de80e88734db999dea7c89f9ccef1)
+            ;
+
+            
+        
+    
+        var marker_b04f1d73cc3240279a29165024a2c6d5 = L.marker(
+            [41.5468, 2.10582],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_b976d813fb354716b5c9b1ef8525bf90 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b04f1d73cc3240279a29165024a2c6d5.setIcon(icon_b976d813fb354716b5c9b1ef8525bf90);
+            
+    
+            var popup_e43e98b2c1c0411cb7d00638e3416c1e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8993a684972640289f23a754f060cfd1 = $('<div id="html_8993a684972640289f23a754f060cfd1" style="width: 100.0%; height: 100.0%;">MINI INNOVA - MÀQUINES EN MOVIMENT. TALLER FAMILIAR 28/12/2018 18:00</div>')[0];
+                popup_e43e98b2c1c0411cb7d00638e3416c1e.setContent(html_8993a684972640289f23a754f060cfd1);
+            
+
+            marker_b04f1d73cc3240279a29165024a2c6d5.bindPopup(popup_e43e98b2c1c0411cb7d00638e3416c1e)
+            ;
+
+            
+        
+    
+        var marker_9c80d013a1164ed3b68fa1c7c2be0500 = L.marker(
+            [41.5468, 2.10582],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_a03d4909609f429a9197cb36eaf2420e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9c80d013a1164ed3b68fa1c7c2be0500.setIcon(icon_a03d4909609f429a9197cb36eaf2420e);
+            
+    
+            var popup_2fef20153c7c42a8ae5ac53dbae3c51d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a2f8db96d8ea40dabe92c2e87b6f7ef2 = $('<div id="html_a2f8db96d8ea40dabe92c2e87b6f7ef2" style="width: 100.0%; height: 100.0%;">MINI INNOVA - CONVERTEIX-TE EN YOUTUBER! TALLER FAMILIAR 14/12/2018 18:00</div>')[0];
+                popup_2fef20153c7c42a8ae5ac53dbae3c51d.setContent(html_a2f8db96d8ea40dabe92c2e87b6f7ef2);
+            
+
+            marker_9c80d013a1164ed3b68fa1c7c2be0500.bindPopup(popup_2fef20153c7c42a8ae5ac53dbae3c51d)
+            ;
+
+            
+        
+    
+        var marker_bc36909ff6f74dbfa905a27ef925a383 = L.marker(
+            [41.5468, 2.10582],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_5d70032285444e558616f55d91161a63 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bc36909ff6f74dbfa905a27ef925a383.setIcon(icon_5d70032285444e558616f55d91161a63);
+            
+    
+            var popup_9e5a09610a6f4a298a95d5bfc59e7428 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_66d47d36cc444d17853ef93df6ccb5eb = $('<div id="html_66d47d36cc444d17853ef93df6ccb5eb" style="width: 100.0%; height: 100.0%;">MINI INNOVA - LEGO WEDO: PROGRAMEM ROBOTS. TALLER FAMILIAR 15/12/2018 11:30</div>')[0];
+                popup_9e5a09610a6f4a298a95d5bfc59e7428.setContent(html_66d47d36cc444d17853ef93df6ccb5eb);
+            
+
+            marker_bc36909ff6f74dbfa905a27ef925a383.bindPopup(popup_9e5a09610a6f4a298a95d5bfc59e7428)
+            ;
+
+            
+        
+    
+        var marker_356e743f96a5475ca0d362a032b46486 = L.marker(
+            [41.5468, 2.10582],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_3b42a822474a4ac5a9c7193b8415cb5f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_356e743f96a5475ca0d362a032b46486.setIcon(icon_3b42a822474a4ac5a9c7193b8415cb5f);
+            
+    
+            var popup_f0b8cc6d79984e78a0d45f57ec939760 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5cd52289984d4858848a65e43ba6296d = $('<div id="html_5cd52289984d4858848a65e43ba6296d" style="width: 100.0%; height: 100.0%;">MINI INNOVA - POSTALS DE NADAL ELECTRÒNIQUES. TALLER FAMILIAR 15/12/2018 11:30</div>')[0];
+                popup_f0b8cc6d79984e78a0d45f57ec939760.setContent(html_5cd52289984d4858848a65e43ba6296d);
+            
+
+            marker_356e743f96a5475ca0d362a032b46486.bindPopup(popup_f0b8cc6d79984e78a0d45f57ec939760)
+            ;
+
+            
+        
+    
+        var marker_bcd81dda85c54d32b41de3c1ae1c3097 = L.marker(
+            [41.5468, 2.10582],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_d82695635a3a4e0c82535e3c814bdba4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bcd81dda85c54d32b41de3c1ae1c3097.setIcon(icon_d82695635a3a4e0c82535e3c814bdba4);
+            
+    
+            var popup_9b3571697c4047db9d610a2b63e0d434 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_85683cdf772c4f6d9cf3461262479371 = $('<div id="html_85683cdf772c4f6d9cf3461262479371" style="width: 100.0%; height: 100.0%;">PETITS A LA CUINA: TORTELL DE REIS. TALLER FAMILIAR 04/01/2019 18:00</div>')[0];
+                popup_9b3571697c4047db9d610a2b63e0d434.setContent(html_85683cdf772c4f6d9cf3461262479371);
+            
+
+            marker_bcd81dda85c54d32b41de3c1ae1c3097.bindPopup(popup_9b3571697c4047db9d610a2b63e0d434)
+            ;
+
+            
+        
+    
+        var marker_49b985271d094fe7b8ed928505ad45bc = L.marker(
+            [41.5501, 2.0973],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_fd038f82281f42858f7c47316d8c93d3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_49b985271d094fe7b8ed928505ad45bc.setIcon(icon_fd038f82281f42858f7c47316d8c93d3);
+            
+    
+            var popup_4df9329cc9d847e09bab5d3514811aae = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c4c83953f8504ab5b96ed07bdcfc1a3d = $('<div id="html_c4c83953f8504ab5b96ed07bdcfc1a3d" style="width: 100.0%; height: 100.0%;">ELS ASTRES DES DE SABADELL: EL SOL. VISITA GUIADA 16/12/2018 00:00</div>')[0];
+                popup_4df9329cc9d847e09bab5d3514811aae.setContent(html_c4c83953f8504ab5b96ed07bdcfc1a3d);
+            
+
+            marker_49b985271d094fe7b8ed928505ad45bc.bindPopup(popup_4df9329cc9d847e09bab5d3514811aae)
+            ;
+
+            
+        
+    
+        var marker_b011ffa371c3465792beff905fa215f7 = L.marker(
+            [41.5501, 2.0973],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_9c5f50b9b9d64fc288c54d379be558e9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b011ffa371c3465792beff905fa215f7.setIcon(icon_9c5f50b9b9d64fc288c54d379be558e9);
+            
+    
+            var popup_58a13cef51144127b1b2867f87c29165 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_253caa1c06e04558826b2efcdac9fb0f = $('<div id="html_253caa1c06e04558826b2efcdac9fb0f" style="width: 100.0%; height: 100.0%;">ELS ASTRES DES DE SABADELL: LA LLUNA. VISITA GUIADA 14/12/2018 00:00</div>')[0];
+                popup_58a13cef51144127b1b2867f87c29165.setContent(html_253caa1c06e04558826b2efcdac9fb0f);
+            
+
+            marker_b011ffa371c3465792beff905fa215f7.bindPopup(popup_58a13cef51144127b1b2867f87c29165)
+            ;
+
+            
+        
+    
+        var marker_f8802fd5bb5942e28ca236e4c631010c = L.marker(
+            [41.5505, 2.09764],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_3ff7d61f74b747b894491425d93323ce = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f8802fd5bb5942e28ca236e4c631010c.setIcon(icon_3ff7d61f74b747b894491425d93323ce);
+            
+    
+            var popup_0f5b62d4b5f34fbf966bae7e99171041 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_605960e2dd654cb3bf717576da8e4597 = $('<div id="html_605960e2dd654cb3bf717576da8e4597" style="width: 100.0%; height: 100.0%;">MOSTRA INTERACTIVA DE REALITAT VIRTUAL #NADALVIRTUAL 27/12/2018 11:00</div>')[0];
+                popup_0f5b62d4b5f34fbf966bae7e99171041.setContent(html_605960e2dd654cb3bf717576da8e4597);
+            
+
+            marker_f8802fd5bb5942e28ca236e4c631010c.bindPopup(popup_0f5b62d4b5f34fbf966bae7e99171041)
+            ;
+
+            
+        
+    
+        var marker_7861c1e101b247969cffda473a0d79c3 = L.marker(
+            [41.5463, 2.10845],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_a6acaec8df2749cba33017304111f8d7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7861c1e101b247969cffda473a0d79c3.setIcon(icon_a6acaec8df2749cba33017304111f8d7);
+            
+    
+            var popup_44142c620bd046f7afc2f81acdad4d21 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_415d12129043401e99a0919c0e123323 = $('<div id="html_415d12129043401e99a0919c0e123323" style="width: 100.0%; height: 100.0%;">JOC INTERACTIU AMB VIDEOMAPPING A LA FAÇANA DE L&apos;AJUNTAMENT 27/12/2018 18:30</div>')[0];
+                popup_44142c620bd046f7afc2f81acdad4d21.setContent(html_415d12129043401e99a0919c0e123323);
+            
+
+            marker_7861c1e101b247969cffda473a0d79c3.bindPopup(popup_44142c620bd046f7afc2f81acdad4d21)
+            ;
+
+            
+        
+    
+        var marker_d518dead2d7a4515a8e956c92f7ee820 = L.marker(
+            [41.5474, 2.10629],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_6009055673b14d18aabceaa5bf04a9da = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d518dead2d7a4515a8e956c92f7ee820.setIcon(icon_6009055673b14d18aabceaa5bf04a9da);
+            
+    
+            var popup_ae12d617422047ec9fc995727c3413f5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e330f145daa64a2cab33b6f3c1935781 = $('<div id="html_e330f145daa64a2cab33b6f3c1935781" style="width: 100.0%; height: 100.0%;">EL MÓN DELS FÒSSILS. TALLER 29/12/2018 11:30</div>')[0];
+                popup_ae12d617422047ec9fc995727c3413f5.setContent(html_e330f145daa64a2cab33b6f3c1935781);
+            
+
+            marker_d518dead2d7a4515a8e956c92f7ee820.bindPopup(popup_ae12d617422047ec9fc995727c3413f5)
+            ;
+
+            
+        
+    
+        var marker_20949a5720d1492ab09ea8dcd0af819a = L.marker(
+            [41.5474, 2.10629],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_a64a2de694fe4b7b84880e783f6153ff = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_20949a5720d1492ab09ea8dcd0af819a.setIcon(icon_a64a2de694fe4b7b84880e783f6153ff);
+            
+    
+            var popup_a5051fb400424ce6ace178d3535b3d4b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7b10faf2de834f72a65bad0c18b05424 = $('<div id="html_7b10faf2de834f72a65bad0c18b05424" style="width: 100.0%; height: 100.0%;">FEM DE PALEONTÒLEGS? TALLER 27/12/2018 11:30</div>')[0];
+                popup_a5051fb400424ce6ace178d3535b3d4b.setContent(html_7b10faf2de834f72a65bad0c18b05424);
+            
+
+            marker_20949a5720d1492ab09ea8dcd0af819a.bindPopup(popup_a5051fb400424ce6ace178d3535b3d4b)
+            ;
+
+            
+        
+    
+        var marker_1392881519854d81a564f20f8ccc8d28 = L.marker(
+            [41.5474, 2.10629],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_391e2b2afaab40fe93937bc6ae20d7e1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1392881519854d81a564f20f8ccc8d28.setIcon(icon_391e2b2afaab40fe93937bc6ae20d7e1);
+            
+    
+            var popup_6a2aa59d05aa444f99fcfc07e5ae47c2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c43e940a75ba4660b5db4be66d23a03e = $('<div id="html_c43e940a75ba4660b5db4be66d23a03e" style="width: 100.0%; height: 100.0%;">EL TITANOSAURE I ELS SEUS AMICS. VISITA GUIADA 22/12/2018 11:30</div>')[0];
+                popup_6a2aa59d05aa444f99fcfc07e5ae47c2.setContent(html_c43e940a75ba4660b5db4be66d23a03e);
+            
+
+            marker_1392881519854d81a564f20f8ccc8d28.bindPopup(popup_6a2aa59d05aa444f99fcfc07e5ae47c2)
+            ;
+
+            
+        
+    
+        var marker_d1bc31cb5d6c4a398f4721c34d43a9e4 = L.marker(
+            [41.5474, 2.10629],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_1039e5d9b3874054885ea845e68e0f22 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d1bc31cb5d6c4a398f4721c34d43a9e4.setIcon(icon_1039e5d9b3874054885ea845e68e0f22);
+            
+    
+            var popup_ec1cf2e7e32f456dad1ae1d091221d82 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d23d3eec2ab44723ab94aac13ae95009 = $('<div id="html_d23d3eec2ab44723ab94aac13ae95009" style="width: 100.0%; height: 100.0%;">PALEOFELICITACIONS. TALLER 16/12/2018 11:30</div>')[0];
+                popup_ec1cf2e7e32f456dad1ae1d091221d82.setContent(html_d23d3eec2ab44723ab94aac13ae95009);
+            
+
+            marker_d1bc31cb5d6c4a398f4721c34d43a9e4.bindPopup(popup_ec1cf2e7e32f456dad1ae1d091221d82)
+            ;
+
+            
+        
+    
+        var marker_b94bb7a0cb874829990098c9fbeab0de = L.marker(
+            [41.5474, 2.10629],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_2dab7d3c2bea4b3f835775dfad232bcd = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b94bb7a0cb874829990098c9fbeab0de.setIcon(icon_2dab7d3c2bea4b3f835775dfad232bcd);
+            
+    
+            var popup_b8979a567c27476993c527b044c890c1 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_66dab4a83e6d4031b2dfff7142f3cc6b = $('<div id="html_66dab4a83e6d4031b2dfff7142f3cc6b" style="width: 100.0%; height: 100.0%;">COM VIVIEN ELS DINOSAURES DELS PIRINEUS? TALLER 28/12/2018 11:30</div>')[0];
+                popup_b8979a567c27476993c527b044c890c1.setContent(html_66dab4a83e6d4031b2dfff7142f3cc6b);
+            
+
+            marker_b94bb7a0cb874829990098c9fbeab0de.bindPopup(popup_b8979a567c27476993c527b044c890c1)
+            ;
+
+            
+        
+    
+        var marker_59424dda218f4cc997405a164cdd0aff = L.marker(
+            [41.5474, 2.10629],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_8c2ff303c40f4f968373f29002dd205c);
+        
+    
+
+                var icon_b21c0ebec0d84f9ab1d63cea7480421a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_59424dda218f4cc997405a164cdd0aff.setIcon(icon_b21c0ebec0d84f9ab1d63cea7480421a);
+            
+    
+            var popup_da60cd911c324a7ea9d9faa1e423998c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9d5145a09d1b477ba40501581b9619d4 = $('<div id="html_9d5145a09d1b477ba40501581b9619d4" style="width: 100.0%; height: 100.0%;">VISITA GUIADA AL MUSEU DE L&apos;ICP 09/12/2018 11:30</div>')[0];
+                popup_da60cd911c324a7ea9d9faa1e423998c.setContent(html_9d5145a09d1b477ba40501581b9619d4);
+            
+
+            marker_59424dda218f4cc997405a164cdd0aff.bindPopup(popup_da60cd911c324a7ea9d9faa1e423998c)
+            ;
+
+            
+        
+</script>
